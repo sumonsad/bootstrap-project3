@@ -1,0 +1,88 @@
+.carousel-item{
+  height: 450px;
+}
+
+.carousel-img-1{
+  background: url('../img/img1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-img-2{
+  background: url('../img/img2.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-img-3{
+  background: url('../img/img4.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#homeicon .fa{
+  font-size: 50px;
+}
+
+#homeready{
+  background: url('../img/img8.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#homevideo{
+  position: relative;
+  background: url('../img/img5.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 250px;
+}
+#homevideo .dark-overlay{
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.dark-overlay .fa{
+  font-size: 50px;
+  color: #ff0000;
+}
+#gallery img{
+  height: 300px;
+}
+
+#copyright{
+  background: #333;
+}
+#aboutus{
+  background: url('../img/img12.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#whatdo img{
+  width: 350px;
+  height: 350px;
+}
+#iconboxes .fa{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+#testimonial .slick-prev::before,.slick-next::before{
+  color: #000;
+}
+#servicesheader{
+  background: url('../img/img9.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@media(max-width:480px) {
+  .carousel h2{
+    font-size: 2.5rem;
+  }
+}
